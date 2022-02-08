@@ -15,3 +15,6 @@ Capturing the motion of face and imitating it using a character on Blender.
 11. Go to the Scripting tab in the top navbar, create a new file OpenCVAnim.py and write the code to create a Panel in the Object properties window. Save the file in the same directory.
 12. Now create another new file and write the code to start video capture using OpenCV, process the image frames using .yaml model. Ensure that you give the correct path for the yaml file. Use haarcascade_frontal_face to detect the face using openCV. Using numpy array, define the coordinates of the face of vincent. Check the register button. Save the file in same directory OpenCVAnimOperator.py.
 13. Now, go to Layout tab and start capturing the video using OpenCV capture option.
+
+# Output
+![blender-face-capture-output](https://user-images.githubusercontent.com/60572554/152935575-6163ca7b-187e-48f7-b0cf-3e8787b0281d.png)
